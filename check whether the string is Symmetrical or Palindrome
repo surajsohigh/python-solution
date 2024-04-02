@@ -1,0 +1,16 @@
+# Python3 Code
+
+str1 = "khokho"
+str2 = "amaama"
+
+siz= len(str1)
+mid = siz//2
+
+if str2 == str2[::-1]:
+    print("It is Palindrome")
+
+if str1[:mid] == str1[mid:]:
+    print("Symmetrical")
+else: 
+    print("no")
+    
