@@ -1,0 +1,6 @@
+
+string = "geeks quiz practice code"
+# to get the length of the string
+le = len(list(map(len, string.split(" "))))
+
+print(le)
