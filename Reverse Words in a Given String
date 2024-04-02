@@ -1,0 +1,23 @@
+
+import copy
+
+string = "geeks quiz practice code"
+# to get the length of the string
+# le = len(list(map(len, str1.split(" "))))
+string = string.split(" ")
+str1 = copy.copy(string)
+
+start = 0; end = len(str1)-1
+
+
+while start < end:
+    str1[start], str1[end] = str1[end], str1[start]
+    start += 1; end -= 1
+    
+str1 = " ".join(str1)
+print(str1)
+
+# Approch 2
+new = string[::-1]
+new = " ".join(new)
+print(new)
