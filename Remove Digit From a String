@@ -1,0 +1,10 @@
+
+
+string = "Geeks123For123Geeks"
+
+string = [*string]
+print(string)
+
+string = [ i for i in string if not i.isdigit()]
+
+print("".join(string))
