@@ -4,7 +4,7 @@ string = string.split(" ")
 new_str = ""
 for i in string:
     new = i[0].upper() + i[1:]
-    new_str += new[:-1] + new[-1].upper() + " "
+    new_str += new[:-1] + new[-1].upper() +" "
     
     print(new)
     
